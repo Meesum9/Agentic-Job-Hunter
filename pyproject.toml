@@ -1,0 +1,19 @@
+[project]
+name = "ai-job-hunter"
+version = "0.1.0"
+description = "AI Agent for discovering, filtering, and scoring tech jobs with resume matching and web search."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.2",
+    "langsmith>=0.14.12",
+    "pydantic>=2.0.0",
+    "pypdf>=6.21.2",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.66.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
